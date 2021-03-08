@@ -40,7 +40,7 @@ footer {
     /* position: absolute;
     left: 0; right: 0; bottom: 0; */
 
-    margin-top: 5%;
+    margin-top: 5vw;
     color: rgba(151, 151, 151, 0.233);
 }
 
@@ -55,7 +55,8 @@ footer {
     position: fixed;
     top: 0;
 
-    background-color: #5f5851;
+    background-image: url(https://cdn.discordapp.com/attachments/818409126757269525/818411385980583936/fe17de19c2e7f27ecbecdcac0c61835e.png);
+    /* background-color: #5f5851; */
     filter: brightness(74%) blur(2px);
 }
 
