@@ -46,24 +46,24 @@ try {
 console.log(access_cards);
 // Проверка пойманной переменной ( МНЕ СТЫДНО ЗА ЭТОТ СПИСОК if-оф )
 if (access_cards.acc_card1 == "true") {
-    card_link1.href = card_links.card1;
-    card_link1.parentElement.style.backgroundColor = "white";
+    card_link1.href = card_links.card1; 
+    card_link1.parentElement.style.backgroundColor = "#7970efc0";
 }
 if (access_cards.acc_card2 == "true") {
     card_link2.href = card_links.card2;
-    card_link2.parentElement.style.backgroundColor = "white";
+    card_link2.parentElement.style.backgroundColor = "#7970efc0";
 }
 if (access_cards.acc_card3 == "true") {
     card_link3.href = card_links.card3;
-    card_link3.parentElement.style.backgroundColor = "white";
+    card_link3.parentElement.style.backgroundColor = "#7970efc0";
 }
 if (access_cards.acc_card4 == "true") {
     card_link4.href = card_links.card4;
-    card_link4.parentElement.style.backgroundColor = "white";
+    card_link4.parentElement.style.backgroundColor = "#7970efc0";
 }
 if (access_cards.acc_card5 == "true") {
     card_link5.href = card_links.card5;
-    card_link5.parentElement.style.backgroundColor = "white";
+    card_link5.parentElement.style.backgroundColor = "#7970efc0";
 }
 
 // Функция, которая позволяет активировать карточки
