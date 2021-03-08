@@ -7,7 +7,7 @@ body {
     /* display: flex; */
     /* justify-content: center; */
 
-    color: rgb(22, 22, 22);
+    color: #b6b6b6;
     text-align: center;
 
     background-color: #bb0915;
@@ -23,10 +23,10 @@ iframe {
     width: 90vw;
     height: 65vh;
 
-    border: 2px black solid;
+    /* border: 2px black solid; */
     border-radius: 14px;
 
-    box-shadow: 0 0 12px 2px rgb(46, 45, 45);
+    box-shadow: 0 0 12px 2px #9e4a89c9;
     background-color: rgba(155, 141, 155, 0.692);
 }
 /* Переключалка карточек */
@@ -57,7 +57,7 @@ footer {
 
     background-image: url(https://cdn.discordapp.com/attachments/818409126757269525/818411385980583936/fe17de19c2e7f27ecbecdcac0c61835e.png);
     /* background-color: #5f5851; */
-    filter: brightness(74%) blur(2px);
+    filter: brightness(65%) blur(2px);
 }
 
 /* Переключение карт */
