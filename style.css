@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* display: flex; */
+    /* justify-content: center; */
+
+    color: rgb(22, 22, 22);
+    text-align: center;
+
+    background-color: #bb0915;
+}
+/* Тута обитают карточки, перемещялки и поля для ввода */
+header {
+    /* width: 100%; */
+    padding-top: 3.5%;
+}
+/* Место размещения карточек */
+iframe {
+    width: 90vw;
+    height: 65vh;
+
+    border: 2px black solid;
+    border-radius: 14px;
+
+    box-shadow: 0 0 12px 2px rgb(46, 45, 45);
+    background-color: rgba(155, 141, 155, 0.692);
+}
+/* Переключалка карточек */
+a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* WaterMark */
+footer {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    color: rgba(151, 151, 151, 0.233);
+}
+
+
+
+/* Задний фон ( Можно закинуть какойто JPEG и размылить его ) */
+.bg {
+    width: 100%;
+    height: 100%;
+
+    z-index: -11;
+    position: fixed;
+    top: 0;
+
+    background-color: #5f5851;
+    filter: brightness(74%) blur(2px);
+}
+
+/* Переключение карт */
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    width: 65px;
+    display: inline-block;
+
+    padding-top: 3px;
+    margin-top: 10px;
+    
+    border-radius: 4px;
+    font: 35px / 30px sans-serif;
+    background: rgba(120, 121, 121, 0.555);
+    filter: brightness(35%);
+}
+/* Место для ввода кода */
+.cod-value {
+    padding: 4px;
+    margin-top: 5px;
+    width: 50%;
+
+    border: none;
+    border-radius: 4px;
+    
+    text-align: center;
+    font-size: 25px;
+
+    color: rgba(224, 230, 224, 0.884);
+    background-color: rgb(124, 138, 138);
+}
+
+.anim {
+    transition-duration: 2s;
+    transition-delay: 1000ms;
+    transition-timing-function: cubic-bezier(.51,-0.52,.47,1.47);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>ღ8Marchღ</title>
+</head>
+<body>
+    <!--{ Задний фон }-->
+    <div class="bg"></div>
+
+    <!--{ Карточки, перемещение по карточкам и поля для ввода кода }-->
+    <header>
+        <h1>Ваши карточки</h1>
+        <!-- Окно с карточками -->
+        <iframe src="cards/clear_card.html" frameborder="0" name="card"></iframe>
+
+        <!--{ Перемещение по карточкам }-->
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="cards/clear_card.html" target="card" id="card-link1"><img src="icons/card-icon.svg" alt="icon" width="45px" onclick="background='red'" class="anim"></a>
+                </li>
+                <li>
+                    <a href="cards/clear_card.html" target="card" id="card-link2"><img src="icons/card-icon.svg" alt="icon" width="45px" class="anim"></a>
+                </li>
+                <li>
+                    <a href="cards/clear_card.html" target="card" id="card-link3"><img src="icons/card-icon.svg" alt="icon" width="45px" class="anim"></a>
+                </li>
+                <li>
+                    <a href="cards/clear_card.html" target="card" id="card-link4"><img src="icons/card-icon.svg" alt="icon" width="45px" class="anim"></a>
+                </li>
+                <li>
+                    <a href="cards/clear_card.html" target="card" id="card-link5"><img src="icons/card-icon.svg" alt="icon" width="45px" class="anim"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Поля для ввода кода -->
+        <div class="cod-input">
+            <form action="" method="" id="form" onsubmit="Submit(); return false;">
+                <input type="number" id="cod-value" name="cod" placeholder="Введите код" class="cod-value"> <br>
+                <button type="submit" class="cod-value"">проверка</button>
+            </form>
+            <p><span id="error"></span></p>
+        </div>
+    </header>
+
+    <!--{ WaterMark }-->
+    <footer><h4>&copy;IThub 2021<br>Made on Игорь на 8 марта. Сорри за дизайн.</h4></footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
