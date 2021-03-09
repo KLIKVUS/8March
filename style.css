@@ -56,7 +56,7 @@ footer {
     background-image: url("img/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+    /* background-position: fixed; */
     filter: brightness(45%) blur(0px);
 }
 

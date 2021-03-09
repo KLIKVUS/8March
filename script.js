@@ -47,23 +47,23 @@ console.log(access_cards);
 // Проверка пойманной переменной ( МНЕ СТЫДНО ЗА ЭТОТ СПИСОК if-оф )
 if (access_cards.acc_card1 == "true") {
     card_link1.href = card_links.card1; 
-    card_link1.parentElement.style.backgroundColor = "#7970efc0";
+    card_link1.previousElementSibling.style.backgroundColor = "#554ea0";
 }
 if (access_cards.acc_card2 == "true") {
     card_link2.href = card_links.card2;
-    card_link2.parentElement.style.backgroundColor = "#7970efc0";
+    card_link2.previousElementSibling.style.backgroundColor = "#524c9b";
 }
 if (access_cards.acc_card3 == "true") {
     card_link3.href = card_links.card3;
-    card_link3.parentElement.style.backgroundColor = "#7970efc0";
+    card_link3.previousElementSibling.style.backgroundColor = "#524c9b";
 }
 if (access_cards.acc_card4 == "true") {
     card_link4.href = card_links.card4;
-    card_link4.parentElement.style.backgroundColor = "#7970efc0";
+    card_link4.previousElementSibling.style.backgroundColor = "#524c9b";
 }
 if (access_cards.acc_card5 == "true") {
     card_link5.href = card_links.card5;
-    card_link5.parentElement.style.backgroundColor = "#7970efc0";
+    card_link5.previousElementSibling.style.backgroundColor = "#524c9b";
 }
 
 // Функция, которая позволяет активировать карточки
@@ -75,7 +75,7 @@ function Submit() {
         console.log("Был введен код 4136");
         error.innerText = "Вы открыли карточку №1";
         card_link1.href = card_links.card1;
-        card_link1.parentElement.style.backgroundColor = "white";
+        card_link1.previousElementSibling.style.backgroundColor = "#7970efc0";
         // Сохраняю доступ к карточкe в памяти браузера
         localStorage.setItem("card1_link_mem", true);
 
@@ -83,28 +83,28 @@ function Submit() {
         console.log("Был введен код 5730");
         error.innerText = "Вы открыли карточку №2";
         card_link2.href = card_links.card2;
-        card_link2.parentElement.style.backgroundColor = "white";
+        card_link2.previousElementSibling.style.backgroundColor = "#7970efc0";
         localStorage.setItem("card2_link_mem", true);
 
     } else if (cod_value.value == cods.cod3) {
         console.log("Был введен код 3854");
         error.innerText = "Вы открыли карточку №3";
         card_link3.href = card_links.card3;
-        card_link3.parentElement.style.backgroundColor = "white";
+        card_link3.previousElementSibling.style.backgroundColor = "#7970efc0";
         localStorage.setItem("card3_link_mem", true);
 
     } else if (cod_value.value == cods.cod4) {
         console.log("Был введен код 7357");
         error.innerText = "Вы открыли карточку №4";
         card_link4.href = card_links.card4;
-        card_link4.parentElement.style.backgroundColor = "white";
+        card_link4.previousElementSibling.style.backgroundColor = "#7970efc0";
         localStorage.setItem("card4_link_mem", true);
 
     } else if (cod_value.value == cods.cod5) {
         console.log("Был введен код 0664");
         error.innerText = "Вы открыли карточку №5";
         card_link5.href = card_links.card5;
-        card_link5.parentElement.style.backgroundColor = "white";
+        card_link5.previousElementSibling.style.backgroundColor = "#7970efc0";
         localStorage.setItem("card5_link_mem", true);
 
     } else {
