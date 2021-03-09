@@ -59,7 +59,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
-    filter: brightness(45%) blur(0px);
+    filter: brightness(100%) blur(0px);
 }
 
 /* Переключение карт */
