@@ -17,7 +17,6 @@ var cods = {
     cod4: "7357",
     cod5: "0664"
 }
-
 // Пути к карточкам
 var card_links = {
     card1: "cards/card1.html",
@@ -35,6 +34,8 @@ let access_cards = {
     acc_card4: "",
     acc_card5: ""
 }
+
+
 // Ловлю "переменну" из памяти браузера
 try {
     access_cards.acc_card1 = localStorage.getItem("card1_link_mem");
@@ -47,7 +48,7 @@ console.log(access_cards);
 // Проверка пойманной переменной ( МНЕ СТЫДНО ЗА ЭТОТ СПИСОК if-оф )
 if (access_cards.acc_card1 == "true") {
     card_link1.href = card_links.card1; 
-    card_link1.previousElementSibling.style.backgroundColor = "#7970efd2";
+    card_link1.previousElementSibling.style.backgroundColor = "#624de9";
 }
 if (access_cards.acc_card2 == "true") {
     card_link2.href = card_links.card2;
