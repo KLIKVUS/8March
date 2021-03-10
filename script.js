@@ -48,31 +48,31 @@ console.log(access_cards);
 if (access_cards.acc_card1 == "true") {
     card_link1.href = card_links.card1; 
     // card_link1.previousElementSibling.style.backgroundColor = "#624de9";
-    card_link1.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+    card_link1.previousElementSibling.style.backgroundImage = "url(img/p1.jpg)";
     card_link1.firstElementChild.style.visibility = "hidden";
 }
 if (access_cards.acc_card2 == "true") {
     card_link2.href = card_links.card2;
     // card_link2.previousElementSibling.style.backgroundColor = "#624de9";
-    card_link2.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+    card_link2.previousElementSibling.style.backgroundImage = "url(img/p2.jpg)";
     card_link2.firstElementChild.style.visibility = "hidden";
 }
 if (access_cards.acc_card3 == "true") {
     card_link3.href = card_links.card3;
     // card_link3.previousElementSibling.style.backgroundColor = "#624de9";
-    card_link3.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+    card_link3.previousElementSibling.style.backgroundImage = "url(img/p3.jpg)";
     card_link3.firstElementChild.style.visibility = "hidden";
 }
 if (access_cards.acc_card4 == "true") {
     card_link4.href = card_links.card4;
     // card_link4.previousElementSibling.style.backgroundColor = "#624de9";
-    card_link4.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+    card_link4.previousElementSibling.style.backgroundImage = "url(img/p4.jpg)";
     card_link4.firstElementChild.style.visibility = "hidden";
 }
 if (access_cards.acc_card5 == "true") {
     card_link5.href = card_links.card5;
     // card_link5.previousElementSibling.style.backgroundColor = "#624de9";
-    card_link5.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+    card_link5.previousElementSibling.style.backgroundImage = "url(img/p5.jpg)";
     card_link5.firstElementChild.style.visibility = "hidden";
 }
 
@@ -86,7 +86,7 @@ function Submit() {
         error.innerText = "Вы открыли карточку №1";
         card_link1.href = card_links.card1;
         // card_link1.previousElementSibling.style.backgroundColor = "#624de9";
-        card_link1.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+        card_link1.previousElementSibling.style.backgroundImage = "url(img/p1.jpg)";
         card_link1.firstElementChild.style.visibility = "hidden";
         // Сохраняю доступ к карточкe в памяти браузера
         localStorage.setItem("card1_link_mem", true);
@@ -96,7 +96,7 @@ function Submit() {
         error.innerText = "Вы открыли карточку №2";
         card_link2.href = card_links.card2;
         // card_link2.previousElementSibling.style.backgroundColor = "#624de9";
-        card_link2.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+        card_link2.previousElementSibling.style.backgroundImage = "url(img/p2.jpg)";
         card_link2.firstElementChild.style.visibility = "hidden";
         localStorage.setItem("card2_link_mem", true);
 
@@ -105,7 +105,7 @@ function Submit() {
         error.innerText = "Вы открыли карточку №3";
         card_link3.href = card_links.card3;
         // card_link3.previousElementSibling.style.backgroundColor = "#624de9";
-        card_link3.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+        card_link3.previousElementSibling.style.backgroundImage = "url(img/p3.jpg)";
         card_link3.firstElementChild.style.visibility = "hidden";
         localStorage.setItem("card3_link_mem", true);
 
@@ -114,7 +114,7 @@ function Submit() {
         error.innerText = "Вы открыли карточку №4";
         card_link4.href = card_links.card4;
         // card_link4.previousElementSibling.style.backgroundColor = "#624de9";
-        card_link4.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+        card_link4.previousElementSibling.style.backgroundImage = "url(img/p4.jpg)";
         card_link4.firstElementChild.style.visibility = "hidden";
         localStorage.setItem("card4_link_mem", true);
 
@@ -123,7 +123,7 @@ function Submit() {
         error.innerText = "Вы открыли карточку №5";
         card_link5.href = card_links.card5;
         // card_link5.previousElementSibling.style.backgroundColor = "#624de9";
-        card_link5.previousElementSibling.style.backgroundImage = "url(img/s.png)";
+        card_link5.previousElementSibling.style.backgroundImage = "url(img/p5.jpg)";
         card_link5.firstElementChild.style.visibility = "hidden";
         localStorage.setItem("card5_link_mem", true);
 
